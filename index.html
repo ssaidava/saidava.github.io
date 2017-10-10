@@ -45,7 +45,31 @@
   </style>
 </head>
 <body>
- <div id="header"></div>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">GISCON</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>info@giscon.com</li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -117,13 +141,10 @@
 <div class="container text-center">
 <center><h2>We are having many services which can help in proviging solution to urban panning management. For more explore to our website</h2></center>
 </div>
-<div id="footer"></div>
- <script> 
-  $("#header").load("header.html",function() {
-    $("#li-home").addClass('active')
-  });  
-  $("#footer").load("footer.html"); 
- 
-</script>
+<br><br><br><br>
+
+<footer class="container-fluid text-center">
+  <p>Copyright @ GISCON Consultancy 2017 | Designed by Siddharth Saidava</p>
+</footer>
 </body>
 </html>

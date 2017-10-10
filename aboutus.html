@@ -20,8 +20,31 @@
   </head>
 <body>
 
-<div id="header"></div>
-
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">GISCON</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="aboutus.html">About us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>info@giscon.com</li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
     <div class="container">
       <div class="">
@@ -81,16 +104,10 @@ GISCON  values the privacy of those who visit our websites and register for our 
 	    </div>
     </div>
 
-<div id="footer"></div>
+<br><br><br><br>
 
-
-
- <script> 
-  $("#header").load("header.html",function() {
-    $("#li-about").addClass('active')
-  }); 
-  $("#footer").load("footer.html"); 
- 
-</script>
+<footer class="container-fluid text-center">
+  <p>Copyright @ GISCON Consultancy 2017 | Designed by Siddharth Saidava</p>
+</footer>
 </body>
 </html>
